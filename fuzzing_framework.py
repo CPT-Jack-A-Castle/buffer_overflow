@@ -6,9 +6,9 @@ ip = "MACHINE_IP"
 
 port = 1337
 timeout = 5
-prefix = "APPNAME "
 
-string = prefix + "A" * 100
+
+string = "A" * 100
 
 while True:
   try:
